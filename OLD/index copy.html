@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Germania One', cursive;
+
+        }
+        .logo__container {
+            float: left; 
+            
+        }
+        .logo__container__img {
+            height: 40px;
+            margin: 10px 0 0 50px;
+
+        }
+        .menu__container {
+            float: right;
+
+        }
+        .menu__container__ul li {
+            float: left; 
+            list-style: none;
+            margin-right: 50px;
+        }
+
+       
+        .menu__container__ul li a{
+            text-decoration:none; 
+            color: #212121;
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        .menu__container__ul__img {
+            height: 25px;
+        }
+
+        .blog__container {
+            width: 1024px;
+            margin: 0 auto 80px auto;
+        }
+
+        .blog__container h2 {
+            font-weight: 400px;
+            font-size: 50px;
+            
+        }
+
+        .blog__container hr {
+            margin: 40px 0 80px;
+        }
+
+        .blog__container p {
+            color: #212121;
+            font-weight: 400px;
+            font-size: 25px;
+        }
+
+        .blog__container img {
+            width: 100%;
+            height: 100%;
+        }
+        .wrap {
+            clear: both;
+        }
+        
+        }
+        /* Use this whenever you use the float class */
+
+        .all__blogpost {
+            margin-top: 100px;
+        }
+        .hero__image {
+            background: url('./images/hero-image.png');
+            height: 900px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            margin-top: 15px;
+        }
+
+        .left__align__hero__text {
+            position: absolute;
+            margin-top: 30px;
+            margin-left: 50px;
+            color: white;  
+            font-size: 60px;
+            
+        }
+
+            .kie {
+                color: aqua;
+                margin-left: 150px;
+
+        }
+      
+    </style>
+</head>
+<body>
+
+    <section> 
+        <div class="logo__container"> 
+        <a href=""> 
+            <img src="./images/logo-2x.png" alt=""class="logo__container__img">
+        </a>
+        </div>
+        
+        <!-- ul>li*3>a  menu nav list--> 
+        
+        <div class="menu__container">
+            <ul class="menu__container__ul">
+                <li>
+                    <a href="">MY ACCOUNT</a>
+                </li>
+                <li>
+                    <a href="">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="">BLOG</a>
+                </li>
+                <li class="menu__container__ul__icons">
+                    <a href="">
+                        <img src="./images/search-icon.png" alt=""class="menu__container__ul__img">
+                    </a>
+                </li>
+                <li class="menu__container__ul__icons">
+                    <a href="">
+                        <img src="./images/cart-icon.png" alt=""class="menu__container__ul__img">
+                    </a>
+                </li>
+            </ul>
+        </div>
+       
+        <div class="wrap"></div> <!-- Use this whenever you use the float class -->
+    </section>
+
+<section>
+    <div class="hero__image">
+        <div class="left__align__hero__text">
+            <h1>
+                Fly like <br /> the wind.
+            </h1>
+        </div>
+    </div>
+</section>
+
+    <!-- section>div>h2+p+hr+img each blog section-->
+    <section>
+        <div class="all__blogpost">
+            <div class="blog__container">
+                <h2>
+                    New head quarters
+                </h2>
+                <p>
+                    We set out to look for a new headquarters for our creatives, and are happy 
+                    to formally announce that our new office is in San Fransico!
+                </p>
+                <hr>
+                <img src="./images/blog-image-1.png" alt=""class="blog__container__img">
+            </div>
+
+            <div class="blog__container">
+                <h2>
+                    Do we read enough books?
+                </h2>
+                <p>
+                    When was the last time you read a book, or a substantial magazine article? Do 
+                    your daily reading habits center around tweets, Facebook updates, or the 
+                    directions on your instant oatmeal packet? If you’re one of countless people 
+                    who don’t make a habit of reading regularly, you might be missing out.
+                </p>
+                <hr>
+                <img src="./images/blog-image-2.png" alt=""class="blog__container__img">
+            </div>
+
+            <div class="blog__container">
+                <h2>
+                    The music club
+                </h2>
+                <p>
+                    Acoustic Music. Whether it’s Classical, Folk, Pop or Indie you’re looking for, 
+                    you’re certain to find the perfect acoustic band or solo performer at Boxr. We 
+                    host gigs every two weeks to help our creative juices flowing.
+                </p>
+                <hr>
+                <img src="./images/blog-image-3.png" alt=""class="blog__container__img">
+            </div>
+
+            <div class="blog__container">
+                <h2>
+                    Artist’s lounge
+                </h2>
+                <p>
+                    Once a week we invite creatives from the outside world to join us on a journey 
+                    and create things together. We unit as one. every Wednesday evening. Got what 
+                    it takes to hang out with us? Join us!
+                </p>
+                <hr>
+                <img src="./images/blog-image-4.png" alt=""class="blog__container__img">
+            </div>
+        </div> 
+    </section>
+
+    <section>
+        <div class="blog__container">
+            <h2>Kieran is gay</h2>
+            <hr>
+            <img src="./images/blog-image-5.png" alt=""class="blog__container__img">
+        </div>
+    </section>
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="reset.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i" rel="stylesheet">
+    <title>Boxr.</title>
+    <style>
+
+        body{
+            font-family: 'Open Sans', sans-serif;
+
+        }
+        .width__content {
+            width: 1300px;
+            margin: 0 auto;
+        }
+        .logo__container {
+            float: left; 
+            
+        }
+        .logo__container .logo__container__img {
+            height: 40px;
+            margin: 10px 0 0 50px;
+
+        }
+        .menu__container {
+            float: right;
+            padding-top: 23px;
+
+        }
+        .menu__container__ul li {
+            float: left; 
+            list-style: none;
+            margin-right: 50px;
+        }
+
+        .menu__container__ul li a{
+            text-decoration:none; 
+            color: #212121;
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        .menu__container__ul__img {
+            height: 25px;
+        }
+
+        .wrap {
+            clear: both;  
+        }
+        /* Use this whenever you use the float class */
+
+  
+        .hero__image {
+            background: url('./images/hero-image-home.png');
+            height: 900px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            margin-top: 15px;
+        }
+        .width__page__size__shop__by {
+            width: 1300px;
+            margin: 0 auto;
+        }
+
+        .left__align__hero__text {
+            position: absolute;
+            margin-top: 644px;
+            margin-left: 50px;
+            color: white;  
+            font-size: 60px;
+        }
+        .hero__text__h1 {
+            width: 267px;
+            line-height: 1.3;
+        }
+
+        .shop__by__menu {
+            margin: 100px 50px 50px;
+            
+        }
+
+        .shop__by__h2 {
+            font-size: 40px;
+            font-weight: 700;
+            padding-bottom: 47px;
+            
+        }
+
+        .shop__by__menu__ul__li {
+            float: left;
+            margin-right: 32px;
+            text-transform: uppercase;
+            
+        }
+
+        .shop__by__menu__ul__li a {
+            text-decoration: none;
+            color: #212121;
+            font-weight: 700;
+        }
+
+        .shop__by__menu__ul__li a.light-grey {
+            color: #989898;
+            font-weight: 400;
+        }
+
+        .width__page__size__shorts {
+            width: 1300px;
+            margin: 0 auto;
+        }
+
+        .menu__item__shorts {
+            margin: 50px 35px 0px 0px;
+            float: left;
+        }
+
+        .image__container__shorts {
+            margin-left: 50px;
+        }
+
+        .menu__item__shorts__img {
+            width: 366px;
+            
+        }
+
+        .menu__item__shorts__name {
+            margin-top: 35px;
+            font-size: 20px;
+            color: #B1AAAA;
+        }
+
+        .menu__item__shorts__price {
+            margin-top: 13px;
+            padding-bottom: 30px;
+            font-size: 35px;
+            font-weight: 700;
+        }
+
+
+        .banner__background__image {
+            background: url('./images/banner-image.png');
+            height: 650px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            margin-top: 15px;
+        }
+
+        .banner__left__align__text {
+            position: absolute;
+            margin-top: 128px;
+            margin-left: 50px;
+            color: white;  
+        }
+
+        .banner__text__h2 {
+            font-size: 60px;
+            width: 254px;
+            line-height: 1.3;
+        }
+
+        .banner__text__p {
+            margin: 30px 0 50px 0;
+            font-size: 30px;
+        }
+
+        .button {
+            background-color: #D500F9;
+            border: none;
+            color: white;
+            padding: 15px 60px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 4px 2px;
+            border-radius: 35px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+
+        .form__container {
+            background-color: #212121; 
+            height: 200px;
+            
+        }
+
+        .form__container__field {
+            border: 1px red solid;
+            width: 720px;
+            margin: 0 auto;
+            padding-top: 80px;
+        }
+
+        .form__container__input__text {
+            width: 50%;
+            padding: 15px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #989898;
+            outline: none;
+        }
+
+
+        .hello {
+            border: 1px red solid;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+
+
+
+
+
+
+        .footer__menu {
+           background-color: #212121; 
+           height: 435px;
+           margin-top: -30px;
+        
+        }
+        .footer__copyright {
+            background-color: #95989A;
+        }
+
+        .footer__copyright p {
+            color: white;
+            font-size: 15px;
+            font-weight: 700;
+            padding: 25px 0;
+        }
+
+        .footer__menu__div {
+            margin-top: 50px;
+            height: 200px;
+            float: left;
+            width: 25%;
+            color: white;
+  
+        }
+
+        .width__menu__footer {
+            
+            width: 1300px;
+            margin: 0 auto;
+        }
+
+        .footer__menu__div h4 {
+            text-transform: uppercase;
+            
+        }
+
+        .footer__menu__div ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .footer__menu__div ul li {
+            margin-top: 15px;
+            
+        }
+
+        .footer__social__media__icons {
+            width: 720px;
+            margin: 30px auto;
+       }
+        .footer__social__media__icons__ul__img {
+            width: 50px;
+            
+        }
+       
+        .footer__social__media__icons__ul__li {
+            float: left;
+            margin-right: 75px;
+        }
+
+        .no-margin-right {
+            margin-right: 0;
+        }
+
+        .footer__menu__div__all {
+            padding: 20px 0 0 36px; 
+        }
+
+        .font-weight-light {
+            font-weight: 100;
+        }
+
+        .footer__bottom__menu {
+            width: 477px;
+            margin: 50px auto;
+            
+        }
+        
+        .footer__bottom__menu__li {
+            float: left;
+            margin-left: 10px;
+            border-right: 1px white solid;
+            padding-right: 10px;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .footer__bottom__menu__li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .no-border-right {
+            border-right: 0;
+        }
+
+
+        @media all and (min-width: 1300px) {
+            /* .hello {
+                width: 75%;
+                margin: 0 auto;
+            } */
+        }
+
+        /* Medium screens */
+@media all and (max-width: 800px) {
+  .hello {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    justify-content: space-around;
+  }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  .hello {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+
+  .footer__menu__div h4 {
+      font-weight: 900;
+  }
+}
+
+    </style>
+</head>
+<body>
+
+    <section> 
+        <div class="logo__container" > 
+            <a href="index-homepage.html"> 
+             <img src="./images/logo-2x.png" alt="" class="logo__container__img">
+        </a>
+        </div>
+        
+        <!-- ul>li*3>a  menu nav list--> 
+        
+        <div class="menu__container">
+            <ul class="menu__container__ul"> 
+                <li>
+                    <a href="" class="" target="_blank">MY ACCOUNT</a>
+                </li>
+                <li>
+                    <a href="">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="index-2.html">BLOG</a>
+                </li>
+                <li class="menu__container__ul__icons">
+                    <a href="">
+                        <img src="./images/search-icon.png" alt="" class="menu__container__ul__img">
+                    </a>
+                </li>
+                <li class="menu__container__ul__icons">
+                    <a href="">
+                        <img src="./images/cart-icon.png" alt="" class="menu__container__ul__img">
+                    </a>
+                </li>
+            </ul>
+        </div>
+       
+        <div class="wrap"></div> <!-- Use this whenever you use the float class -->
+    </section>
+
+    <section>
+        <div class="hero__image">
+            <div class="left__align__hero__text">
+                <h1 class="hero__text__h1">
+                    Escape the world
+                </h1>
+            </div>
+        </div>
+    </section>
+
+
+<!-- section>div>h2+ul>li*4>a > means elements goes inside and by adding + meands the element will be on the same level -->
+
+    <section>
+        <div class="width__page__size__shop__by">
+            <div class="shop__by__menu">
+                <h2 class="shop__by__h2">
+                    Shop By
+                </h2>
+                <ul>
+                    <li class="shop__by__menu__ul__li">
+                        <a href="">New</a>
+                    </li>
+                    <li class="shop__by__menu__ul__li">
+                        <a class="shop__by__menu__ul__li__a light-grey" href="">Trending</a>
+                    </li>
+                    <li class="shop__by__menu__ul__li">
+                        <a class="shop__by__menu__ul__li__a light-grey" href="">Popular</a>
+                    </li>
+                    <li class="shop__by__menu__ul__li">
+                        <a class="shop__by__menu__ul__li__a light-grey" href="">Sale</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="width__page__size__shorts">
+            <div class="image__container__shorts">
+            <div class="menu__item__shorts">
+                <img src="./images/green-goblin-shorts.png" alt="" class="menu__item__shorts__img">
+                    <p class="menu__item__shorts__name">
+                        Green Goblin
+                    </p>
+                    <h3 class="menu__item__shorts__price">
+                        £12.99
+                    </h3>
+            </div>
+
+            <div class="menu__item__shorts">
+                <img src="./images/beach-party-shorts.png" alt="" class="menu__item__shorts__img">
+                    <p class="menu__item__shorts__name">
+                        Beach Party
+                    </p>
+                    <h3 class="menu__item__shorts__price">
+                        £15.99
+                    </h3>
+            </div>
+
+            <div class="menu__item__shorts">
+                <img src="./images/hipster-bliss-shorts.png" alt="" class="menu__item__shorts__img">
+                    <p class="menu__item__shorts__name">
+                        Hipster Bliss
+                    </p>
+                    <h3 class="menu__item__shorts__price">
+                        £15.99
+                    </h3>
+            </div>
+
+            <div class="menu__item__shorts">
+                <img src="./images/maze-shorts.png" alt="" class="menu__item__shorts__img">
+                    <p class="menu__item__shorts__name">
+                        Maze
+                    </p>
+                    <h3 class="menu__item__shorts__price">
+                        £17.99
+                    </h3>
+            </div>
+
+            <div class="menu__item__shorts">
+                <img src="./images/bay-watch-shorts.png" alt="" class="menu__item__shorts__img">
+                    <p class="menu__item__shorts__name">
+                        Bay Watch
+                    </p>
+                    <h3 class="menu__item__shorts__price">
+                        £18.99
+                    </h3>
+            </div>
+
+            <div class="menu__item__shorts">
+                <img src="./images/grandmother’s-curtains-shorts.png" alt="" class="menu__item__shorts__img">
+                    <p class="menu__item__shorts__name">
+                        Grandmother’s Curtains
+                    </p>
+                    <h3 class="menu__item__shorts__price">
+                        £12.99
+                    </h3>
+            </div>
+
+            <div class="menu__item__shorts">
+                <img src="./images/ladie’s-man-shorts.png" alt="" class="menu__item__shorts__img">
+                    <p class="menu__item__shorts__name">
+                        Ladie’s Man
+                    </p>
+                    <h3 class="menu__item__shorts__price">
+                        £19.99
+                    </h3>
+            </div>
+
+            <div class="menu__item__shorts">
+                <img src="./images/skater-boy.png" alt="" class="menu__item__shorts__img">
+                    <p class="menu__item__shorts__name">
+                        Skater Boy
+                    </p>
+                    <h3 class="menu__item__shorts__price">
+                        £16.99
+                    </h3>
+            </div>
+
+            <div class="menu__item__shorts">
+                <img src="./images/furburger-shorts.png" alt="" class="menu__item__shorts__img">
+                    <p class="menu__item__shorts__name">
+                        Furburger
+                    </p>
+                    <h3 class="menu__item__shorts__price">
+                        £19.99
+                    </h3>
+            </div>
+        </div>
+        
+        
+        <div class="wrap"></div>
+        </div>
+    </section>
+
+
+
+
+
+    <section>
+        <div class="banner__background__image">
+
+            <div class="banner__left__align__text">
+                <h2 class="banner__text__h2">
+                    Wear are you?
+                </h2>
+            
+                <p class="banner__text__p">
+                    Seasons come and go, but not for Boxr.
+                </p>
+                <button class="button">Trends</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="form__container">
+            <form class="form__container__field" action="/action_page.php">
+                <input type="text" placeholder="Enter your email address" class="form__container__input__text">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+    <footer>
+        
+        <div>
+            <div class="footer__menu">
+                    <div class="hello ">
+        
+                            <div>
+                                    <h4>
+                                        More about Boxr.
+                                    </h4>
+                                    <ul>
+                                        <li>
+                                            <a href="">Help</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Track</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Deliver</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Returns</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                    
+                    <div><div>
+                            <h4>
+                                More about Boxr.
+                            </h4>
+                            <ul>
+                                <li>
+                                    <a href="">Help</a>
+                                </li>
+                                <li>
+                                    <a href="">Track</a>
+                                </li>
+                                <li>
+                                    <a href="">Deliver</a>
+                                </li>
+                                <li>
+                                    <a href="">Returns</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div><div>
+                            <h4>
+                                More about Boxr.
+                            </h4>
+                            <ul>
+                                <li>
+                                    <a href="">Help</a>
+                                </li>
+                                <li>
+                                    <a href="">Track</a>
+                                </li>
+                                <li>
+                                    <a href="">Deliver</a>
+                                </li>
+                                <li>
+                                    <a href="">Returns</a>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+                    <div>
+                            <div>
+                                    <h4>
+                                        More about Boxr.
+                                    </h4>
+                                    <ul>
+                                        <li>
+                                            <a href="">Help</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Track</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Deliver</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Returns</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                </div>
+                </div>
+                <div class="width__menu__footer">
+                    <div class="footer__menu__div"> 
+                        <div class="footer__menu__div__all">
+                            <h4>
+                                Questions?
+                            </h4>
+                            
+                            <ul>
+                                <li>
+                                    <a href="" class="font-weight-light">Help</a> 
+                                </li>
+                                <li>
+                                    <a href="" class="font-weight-light">Track</a>
+                                </li>
+                                <li>
+                                    <a href="" class="font-weight-light">Deliver</a>
+                                </li>
+                                <li>
+                                    <a href="" class="font-weight-light">Returns</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__menu__div"> 
+                        <div class="footer__menu__div__all">
+                            <h4>
+                                What's in store
+                            </h4>
+                            <ul>
+                                <li>
+                                    <a href="" class="font-weight-light">Help</a>
+                                </li>
+                                <li>
+                                    <a href="" class="font-weight-light">Track</a>
+                                </li>
+                                <li>
+                                    <a href="" class="font-weight-light">Deliver</a>
+                                </li>
+                                <li>
+                                    <a href="" class="font-weight-light">Returns</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer__menu__div">
+                        <div class="footer__menu__div__all">
+                            <h4>
+                                Follow us
+                            </h4>
+                            <ul>
+                                <li>
+                                    <a href="" class="font-weight-light">Help</a>
+                                </li>
+                                <li>
+                                    <a href="" class="font-weight-light">Track</a>
+                                </li>
+                                <li>
+                                    <a href="" class="font-weight-light">Deliver</a>
+                                </li>
+                                <li>
+                                    <a href="" class="font-weight-light">Returns</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer__menu__div">
+                        <div class="footer__menu__div__all">
+                            <h4>
+                                More about Boxr.
+                            </h4>
+                            <ul>
+                                <li>
+                                    <a href="" class="font-weight-light">Help</a>
+                                </li>
+                                <li>
+                                    <a href="" class="font-weight-light">Track</a>
+                                </li>
+                                <li>
+                                    <a href="" class="font-weight-light">Deliver</a>
+                                </li>
+                                <li>
+                                    <a href="" class="font-weight-light">Returns</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="wrap"></div>
+
+
+
+
+
+
+             
+
+
+
+
+
+
+
+                    <div class="footer__social__media__icons">
+                        <ul>
+                            <li class="footer__social__media__icons__ul__li">
+                                <a href="#link"> 
+                                    <img src="./images/instagram-icon.png" alt="" class="footer__social__media__icons__ul__img"> 
+                                </a>
+                            </li>
+                            <li class="footer__social__media__icons__ul__li">
+                                <a href="#link">
+                                    <img src="./images/facebook-icon.png" alt="" class="footer__social__media__icons__ul__img"> 
+                                </a>
+                            </li>
+
+                            <li class="footer__social__media__icons__ul__li">
+                                <a href="#link">
+                                    <img src="./images/twitter-icon.png" alt="" class="footer__social__media__icons__ul__img"> 
+                                </a>
+                            </li>
+
+                            <li class="footer__social__media__icons__ul__li">
+                                <a href="#link">
+                                    <img src="./images/pinterest-icon.png" alt="" class="footer__social__media__icons__ul__img"> 
+                                </a>
+                            </li>
+
+                            <li class="footer__social__media__icons__ul__li">
+                                <a href="#link">
+                                    <img src="./images/tumblr-icon.png" alt="" class="footer__social__media__icons__ul__img"> 
+                                </a>
+                            </li>
+
+                            <li class="footer__social__media__icons__ul__li no-margin-right ">
+                                <a href="#link">
+                                    <img src="./images/behance-icon.png" alt="" class="footer__social__media__icons__ul__img"> 
+                                </a>
+                            </li>
+                        </ul>    
+                    </div>
+                    <div class="wrap"></div>
+                </div>
+
+                
+                
+                <div class="footer__bottom__menu">
+                        <ul>
+                            <li class="footer__bottom__menu__li">
+                                <a href="">
+                                        Privacy & Cookies
+                                </a>
+                            </li>
+                            <li class="footer__bottom__menu__li">
+                                <a href="">
+                                        Terms & Conditions
+                                </a>
+                            </li>
+                            <li class="footer__bottom__menu__li">
+                                <a href="">
+                                        Accessibility
+                                </a>
+                            </li>
+                            <li class="footer__bottom__menu__li no-border-right"> 
+                                <a href="">
+                                        About Us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+            </div >
+            <div class="wrap"></div>
+            <div class="footer__copyright">
+                <div class="width__content">
+                    <p>
+                        ©2017 boxr.com Ltd. All rights reserved
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- footer>div>h4+ul>li*3>a (this creates the footer menu. Always remember if using a '+' 
+            means it's not indented and falls directly below the first tag and using '>' means indentation)  -->
+
+    </footer>
+
+    
+    
+</body>
+</html>
+

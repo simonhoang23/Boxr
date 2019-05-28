@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i," rel="stylesheet">
+    <title>Document</title>
+    <style>
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+        body{
+            font-family: 'Open Sans', sans-serif;
+
+        }
+        .width__content {
+            width: 1024px;
+            margin: 0 auto;
+        }
+        .logo__container {
+            float: left; 
+            
+        }
+        .logo__container .logo__container__img {
+            height: 40px;
+            margin: 10px 0 0 50px;
+
+        }
+        .menu__container {
+            float: right;
+
+        }
+        .menu__container__ul li {
+            float: left; 
+            list-style: none;
+            margin-right: 50px;
+        }
+
+        .menu__container__ul li a{
+            text-decoration:none; 
+            color: #212121;
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        .menu__container__ul__img {
+            height: 25px;
+        }
+
+        .blog__container {
+            
+            margin-bottom: 80px;
+        }
+
+        .blog__container h2 {
+            font-weight: 400px;
+            font-size: 50px;
+            
+        }
+
+        .blog__container hr {
+            margin: 40px 0 40px;
+        }
+
+        .blog__container p {
+            color: #212121;
+            font-weight: 400px;
+            font-size: 25px;
+        }
+
+        .blog__container img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .wrap {
+            clear: both;  
+        }
+        /* Use this whenever you use the float class */
+
+        .all__blogpost {
+            margin-top: 100px;
+        }
+        .hero__image {
+            background: url('./images/hero-image.png');
+            height: 900px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            margin-top: 15px;
+        }
+
+        .left__align__hero__text {
+            position: absolute;
+            margin-top: 30px;
+            margin-left: 50px;
+            color: white;  
+            font-size: 60px;
+        }
+        .hero__text__h1 {
+            width: 405px;
+        }
+
+        .footer__menu {
+           background-color: #212121; 
+           height: 400px;
+        
+        }
+        .footer__copyright {
+            background-color: #95989A;
+        }
+
+        .footer__copyright p {
+            color: white;
+            font-size: 23px;
+            font-weight: 700;
+            padding: 40px 0;
+        }
+
+        .footer__menu__div {
+            margin-top: 50px;
+            height: 200px;
+            float: left;
+            width: 25%;
+            color: white;
+            
+        }
+        .footer__menu__div h4 {
+            text-transform: uppercase;
+            
+        }
+
+        .footer__menu__div ul li a {
+            text-decoration: none;
+            color: white;
+        
+        }
+
+        .footer__menu__div ul li {
+            margin-top: 15px;
+            
+        }
+
+        .footer__social__media__icons {
+            
+       }
+        .footer__social__media__icons__ul__img {
+            float: left;
+            width: 50px;
+            margin: 0 60px;
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+
+    <section> 
+        <div class="logo__container"> 
+            <a href=""> 
+             <img src="./images/logo-2x.png" alt=""class="logo__container__img">
+        </a>
+        </div>
+        
+        <!-- ul>li*3>a  menu nav list--> 
+        
+        <div class="menu__container">
+            <ul class="menu__container__ul"> 
+                <li>
+                    <a href="" class="" target="_blank">MY ACCOUNT</a>
+                </li>
+                <li>
+                    <a href="">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="">BLOG</a>
+                </li>
+                <li class="menu__container__ul__icons">
+                    <a href="">
+                        <img src="./images/search-icon.png" alt=""class="menu__container__ul__img">
+                    </a>
+                </li>
+                <li class="menu__container__ul__icons">
+                    <a href="">
+                        <img src="./images/cart-icon.png" alt=""class="menu__container__ul__img">
+                    </a>
+                </li>
+            </ul>
+        </div>
+       
+        <div class="wrap"></div> <!-- Use this whenever you use the float class -->
+    </section>
+
+    <section>
+        <div class="hero__image">
+            <div class="left__align__hero__text">
+                <h1 class="hero__text__h1">
+                    Fly like the wind.
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- section>div>h2+p+hr+img each blog section-->
+    <section>
+        <div class="all__blogpost">
+            <div class="blog__container width__content">
+                <h2>
+                    New head quarters
+                </h2>
+                <p>
+                    We set out to look for a new headquarters for our creatives, and are happy 
+                    to formally announce that our new office is in San Fransico!
+                </p>
+                <hr>
+                <img src="./images/blog-image-1.png" alt=""class="blog__container__img">
+            </div>
+
+            <div class="blog__container width__content">
+                <h2>
+                    Do we read enough books?
+                </h2>
+                <p>
+                    When was the last time you read a book, or a substantial magazine article? Do 
+                    your daily reading habits center around tweets, Facebook updates, or the 
+                    directions on your instant oatmeal packet? If you’re one of countless people 
+                    who don’t make a habit of reading regularly, you might be missing out.
+                </p>
+                <hr>
+                <img src="./images/blog-image-2.png" alt=""class="blog__container__img">
+            </div>
+
+            <div class="blog__container width__content">
+                <h2>
+                    The music club
+                </h2>
+                <p>
+                    Acoustic Music. Whether it’s Classical, Folk, Pop or Indie you’re looking for, 
+                    you’re certain to find the perfect acoustic band or solo performer at Boxr. We 
+                    host gigs every two weeks to help our creative juices flowing.
+                </p>
+                <hr>
+                <img src="./images/blog-image-3.png" alt=""class="blog__container__img">
+            </div>
+
+            <div class="blog__container width__content">
+                <h2>
+                    Artist’s lounge
+                </h2>
+                <p>
+                    Once a week we invite creatives from the outside world to join us on a journey 
+                    and create things together. We unit as one. every Wednesday evening. Got what 
+                    it takes to hang out with us? Join us!
+                </p>
+                <hr>
+                <img src="./images/blog-image-4.png" alt=""class="blog__container__img">
+            </div>
+        </div> 
+    </section>
+
+    <footer>
+        <div>
+            <div class="footer__menu">
+                <div class="width__content">
+                    <div class="footer__menu__div"> 
+                        <h4>
+                            Questions?
+                        </h4>
+                        <ul>
+                            <li>
+                                <a href="">Help</a>
+                            </li>
+                            <li>
+                                <a href="">Track</a>
+                            </li>
+                            <li>
+                                <a href="">Deliver</a>
+                            </li>
+                            <li>
+                                <a href="">Returns</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu__div">
+                        <h4>
+                            What's in store
+                        </h4>
+                        <ul>
+                            <li>
+                                <a href="">Help</a>
+                            </li>
+                            <li>
+                                <a href="">Track</a>
+                            </li>
+                            <li>
+                                <a href="">Deliver</a>
+                            </li>
+                            <li>
+                                <a href="">Returns</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__menu__div">
+                        <h4>
+                            Follow us
+                        </h4>
+                        <ul>
+                            <li>
+                                <a href="">Help</a>
+                            </li>
+                            <li>
+                                <a href="">Track</a>
+                            </li>
+                            <li>
+                                <a href="">Deliver</a>
+                            </li>
+                            <li>
+                                <a href="">Returns</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__menu__div">
+                        <h4>
+                            More about Boxr.
+                        </h4>
+                        <ul>
+                            <li>
+                                <a href="">Help</a>
+                            </li>
+                            <li>
+                                <a href="">Track</a>
+                            </li>
+                            <li>
+                                <a href="">Deliver</a>
+                            </li>
+                            <li>
+                                <a href="">Returns</a>
+                            </li>
+                        </ul>
+                    </div>
+                   
+                    <div class="footer__social__media__icons">
+                        <ul>
+                            <li>
+                                <a href="#link"> 
+                                    <img src="./images/instagram-icon.png" alt="" class="footer__social__media__icons__ul__img"> 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#link">
+                                    <img src="./images/facebook-icon.png" alt="" class="footer__social__media__icons__ul__img"> 
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link">
+                                    <img src="./images/twitter-icon.png" alt="" class="footer__social__media__icons__ul__img"> 
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link">
+                                    <img src="./images/pinterest-icon.png" alt="" class="footer__social__media__icons__ul__img"> 
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link">
+                                    <img src="./images/tumblr-icon.png" alt="" class="footer__social__media__icons__ul__img"> 
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link">
+                                    <img src="./images/behance-icon.png" alt="" class="footer__social__media__icons__ul__img"> 
+                                </a>
+                            </li>
+                        </ul>    
+                    </div>
+                </div>
+
+                <div class="wrap"></div>
+            </div >
+            
+            <div class="footer__copyright">
+                <div class="width__content">
+                    <p>
+                        ©2017 boxr.com Ltd. All rights reserved
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- footer>div>h4+ul>li*3>a (this creates the footer menu. Always remember if using a '+' 
+            means it's not indented and falls directly below the first tag and using '>' means indentation)  -->
+
+    </footer>
+
+    
+    
+</body>
+</html>

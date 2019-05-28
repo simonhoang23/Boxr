@@ -1,0 +1,353 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* section.hero__image div.hero__image div h1.hero__text__h1 {
+
+} targeting specific element class*/
+
+section {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.flexbox__header__container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    
+}
+
+.logo__container {
+    margin-top: 15px;
+}
+
+.logo__container__img {
+    width: 150px;
+    
+}
+
+.menu__container {
+    justify-content: center;
+    align-self: center;
+}
+
+.menu__container__ul {
+    display: flex;
+    text-transform: uppercase;
+   
+}
+
+.menu__container__ul__li-flex-grow {
+    display: flex;
+    min-width: 150px;
+    align-self: center;
+    justify-content: center;
+    
+}
+
+.menu__container__ul__li-flex-grow-disable { 
+    padding-left: 20px;
+}
+
+.menu__container__ul li a {
+    text-decoration: none;
+    color: #212121;
+
+}
+
+.menu__container__ul__img {
+    height: 25px;
+
+}
+
+.hr {
+    margin: 13px 0 30px 0;
+    max-width: 100%;
+}
+
+.back__button__icon__text {
+    padding: 35px 0;
+
+}
+
+.back__button__a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    max-width: 100px;
+}
+
+.back__button__a:hover { 
+    text-decoration: underline; 
+    }
+
+
+.go__back__icon {
+    width: 10px;
+}
+
+.back__button__text {
+    padding-left: 10px;
+    color: #212121;
+   
+}
+
+.product__container {
+    
+}
+
+.product__all {
+    display: flex;
+}
+
+.right__text {
+    margin-left: 90px;
+}
+
+.shorts__main {
+    width: 600px;
+}
+
+.shorts__small {
+    width: 190px;
+    padding: 12px 10px 70px 0;
+} 
+
+.product__info__container{
+    
+}
+
+.product__h2__text {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 60px 0 40px;
+}
+
+.product__p__text {
+    margin: 25px 0 13px 0;
+    color: #212121;
+    font-size: 23px;
+    width: 530px;
+    line-height: 1.3;
+}
+
+.link__tags {
+    text-decoration: none;
+}
+
+.image__sizes {
+    width: 50px;
+    margin: 30px 20px 0 0;
+}
+
+.product__price__text {
+    color: #212121;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 30px 0 30px 0;
+}
+
+.button {
+    background-color: #D500F9;
+    border: none;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+
+.button:hover {
+    background-color: rgb(172, 0, 202);
+    color: white;
+    transition: 0.7s;
+    cursor: pointer;
+  }
+
+.banner__container {
+    max-width: 100%;
+}
+
+.banner__image {
+    background: url('../images/banner-image-see-the-world-wear-it.png');
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner__text {
+    width: 550px;
+    line-height: 1.3;
+    font-size: 70px;
+    color: black;
+    padding: 170px 0 0 900px;
+}
+
+
+.images__container {
+max-width: 100%;
+display: flex;
+}
+
+.images__flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.images {
+    width: 32.9%;
+    height: 100%;
+    margin: 0 11px 0 0;
+}
+
+.furburger__image__size {
+    max-width: 100%;
+}
+
+
+.furburger__image__4 {
+    background: url('../images/furburger-image-4.png');
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 10px;
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+.footer__container__nav__menus {
+    background-color: black;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+ .footer__nav__menus {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sub__links {
+    text-decoration: none;
+    color: white;
+    line-height: 3.2;
+    font-weight: 300;
+}
+
+.footer__h2_title {
+    color: white;
+    text-transform: uppercase; 
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.social__media__icons__container {
+    background: black;
+    max-width: 100%;
+    
+   
+}
+
+.social__media__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 160px;
+}
+
+.social__media__icons a img {
+    width: 50px;
+    margin: 50px 0 50px 0;
+}
+
+.footer__privacy__container__links{
+    background: black;
+    max-width: 100%;
+    padding-bottom: 50px;
+    
+    
+}
+
+.footer__privacy__flex {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer__links__text {
+    color: white;
+    border-right: 1px white solid;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+
+}
+
+a.footer__links__text.no__right__border {
+    border: none;
+    
+}
+
+.footer__copyright__container {
+    background: #95989A;
+    max-width: 100%;
+    padding: 20px 90px;
+}
+
+.footer__copyright__text{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+}
+    
+/* Small screens */
+@media all and (max-width: 500px) {
+}
