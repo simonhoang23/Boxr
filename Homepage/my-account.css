@@ -68,7 +68,7 @@ section {
 
 .hero__image {
     background: url('../images/my-account-image.png');
-    height: 900px;
+    height: 800px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,24 +78,30 @@ section {
 }
 
 .sign__in__register__container {
-    border: 1px red solid;
     padding: 150px 0 60px 0;
     display: flex;
     justify-content: space-evenly;
 }
 
-.links {
-    text-decoration: none;
-    color: white;
-    font-weight: 300;
-    font-size: 30px;
+.links__register {
+    margin: 0 0 50px 500px;
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+}
+
+.form__grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 input[type=text], input[type=password]{
-    width: 435px;
+    width: 515px;
     font-size: 18px;
     padding: 15px 25px;
     border-radius: 60px;
+    margin-bottom: 30px;
     display: inline-block;
     border: none;
     background: #FFFFFF;
@@ -118,6 +124,7 @@ input[type=text]:focus, input[type=password]:focus {
     border-radius: 60px;
     text-transform: uppercase;
     font-weight: 700;
+    margin: 0 0 30px -360px;
     
 }
 
@@ -128,13 +135,17 @@ input[type=text]:focus, input[type=password]:focus {
     cursor: pointer;
   }
 
+  .forgot__password {
+    margin-left: -420px;
+    color: white;
+    font-size: 13px;
+  }
+
 .form__container__sign__up {
-    border: 1px red solid;
+    
 }
 
-.form__grid {
 
-}
 
 
 
@@ -169,7 +180,7 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 input[type=text]{
-    width: 435px;
+    width: 515px;
     font-size: 18px;
     padding: 15px 25px;
     border-radius: 60px;
