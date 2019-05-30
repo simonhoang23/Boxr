@@ -74,7 +74,10 @@ section {
     background-size: cover;
     position: relative;
     margin-top: 15px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .sign__in__register__container {
@@ -84,10 +87,9 @@ section {
 }
 
 .links__register {
-    margin: 0 0 50px 500px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
-    padding-top: 180px;
 }
 
 .form__grid {
