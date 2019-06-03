@@ -78,8 +78,9 @@ display: flex;
 }
 
 .images__left {
-    width: 100%;
-    margin-bottom: 10px;
+    width: 600px;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 .no_margin__bottom {
