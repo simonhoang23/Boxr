@@ -67,8 +67,8 @@ section {
     max-width: 100%;
 }
 
-.images__left__container {
-border: 1px red solid;
+.images__text__main__container {
+margin-bottom: 70px;
 display: flex;
 }
 
@@ -99,8 +99,8 @@ display: flex;
 .p__text  {
     color: #212121;
     font-size: 23px;
-    width: 530px;
-    line-height: 1.5;
+    line-height: 1.6;
+    max-width: 80%;
 }
 
 
