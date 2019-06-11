@@ -1,12 +1,29 @@
-@media only screen and (max-width: 1400px){
+@media only screen and (max-width: 1200px){
     .logo__container__img {
         margin-left: 20px;
     }
+  
+    .items {
+        max-width: 27%;
+    }
 }
+
+@media screen and (max-width: 1200px) and (min-width: 800px) {
+    .items {
+        max-width: 27%;
+    }
+}
+
 
 @media only screen and (max-width: 800px){
     .logo__container__img {
         border: 1px red solid;
+    }
+    .menu__container {
+        padding: 20px;
+    }
+    .items {
+        max-width: 44%;
     }
 }
 
@@ -14,6 +31,12 @@
     .logo__container__img {
         margin-left: 100px;
         border: none;
+    }
+    .menu__container {
+        display: none;
+    }
+    .menu__mobile__container {
+        display: block;
     }
 }
 

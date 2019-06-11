@@ -33,6 +33,10 @@ section {
     align-self: center;
 }
 
+.menu__mobile__container {
+    display: none;
+}
+
 .menu__container__ul {
     display: flex;
     text-transform: uppercase;
@@ -116,12 +120,14 @@ section {
 
 .shop__by__items__container {
     display: flex;
+    flex-wrap: wrap;
     margin: 50px 0;
 }
 
 .items {
     margin: 20px;
     cursor: pointer;
+    max-width: 30%;
 }
 
 .items img {
