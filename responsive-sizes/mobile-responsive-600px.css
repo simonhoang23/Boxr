@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px){
+    .logo__container__img {
+        margin-left: 100px;
+        border: none;
+    }
+    .menu__container {
+        display: none;
+    }
+    .menu__mobile__container {
+        display: block;
+    }
+
+    .items {
+    max-width: 90%;
+
+    }
+
+}
+

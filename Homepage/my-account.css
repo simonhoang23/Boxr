@@ -41,7 +41,7 @@ section {
 
 .menu__container__ul__li-flex-grow {
     display: flex;
-    min-width: 150px;
+    margin-right: 45px;
     align-self: center;
     justify-content: center;
     
