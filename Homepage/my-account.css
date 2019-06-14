@@ -41,7 +41,7 @@ section {
 
 .menu__container__ul__li-flex-grow {
     display: flex;
-    min-width: 150px;
+    margin-right: 45px;
     align-self: center;
     justify-content: center;
     
@@ -67,13 +67,17 @@ section {
 }
 
 .hero__image {
-    background: url('../images/my-account-image.png');
+    background: url('../images/my-account-image-2.png');
     height: 800px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -85,9 +89,8 @@ section {
 
 .links__register {
     margin: 0 0 50px 500px;
-    display: flex;
-    justify-content: center;
-    padding-top: 180px;
+    color: white;
+
 }
 
 .form__grid {
@@ -139,12 +142,34 @@ input[type=text]:focus, input[type=password]:focus {
     margin-left: -420px;
     color: white;
     font-size: 13px;
+    font-weight: 700;
   }
 
 .form__container__sign__up {
     
 }
 
+.h2__sign__up__social {
+    color: white;
+    padding: 50px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.a__flex__container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.a__social {
+    text-decoration: none;
+}
+
+.sign__in__social__links {
+    width: 50px;
+
+}
 
 
 
