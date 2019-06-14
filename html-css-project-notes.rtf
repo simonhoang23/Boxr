@@ -1,57 +1,78 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf500
-{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\fnil\fcharset0 Menlo-Regular;}
-{\colortbl;\red255\green255\blue255;\red26\green26\blue26;\red255\green255\blue255;\red109\green109\blue109;
-\red23\green23\blue23;\red70\green137\blue204;\red202\green202\blue202;\red140\green211\blue254;\red194\green126\blue101;
-\red7\green68\blue184;\red27\green31\blue34;\red225\green255\blue233;\red203\green35\blue57;}
-{\*\expandedcolortbl;;\cssrgb\c13333\c13333\c13333;\cssrgb\c100000\c100000\c100000;\cssrgb\c50196\c50196\c50196;
-\cssrgb\c11765\c11765\c11765;\cssrgb\c33725\c61176\c83922;\cssrgb\c83137\c83137\c83137;\cssrgb\c61176\c86275\c99608;\cssrgb\c80784\c56863\c47059;
-\cssrgb\c0\c36078\c77255;\cssrgb\c14118\c16078\c18039;\cssrgb\c90196\c100000\c92941;\cssrgb\c84314\c22745\c28627;}
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 HelveticaNeue;\f2\fnil\fcharset0 Menlo-Italic;
+\f3\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;\red244\green246\blue249;\red27\green31\blue34;
+\red255\green255\blue255;\red0\green0\blue0;\red26\green26\blue26;\red109\green109\blue109;\red23\green23\blue23;
+\red70\green137\blue204;\red202\green202\blue202;\red140\green211\blue254;\red194\green126\blue101;\red7\green68\blue184;
+\red27\green31\blue34;\red225\green255\blue233;\red203\green35\blue57;}
+{\*\expandedcolortbl;;\cssrgb\c20000\c20000\c20000;\cssrgb\c96471\c97255\c98039;\cssrgb\c14118\c16078\c18039;
+\cssrgb\c100000\c100000\c100000;\cssrgb\c0\c0\c0;\cssrgb\c13333\c13333\c13333;\cssrgb\c50196\c50196\c50196;\cssrgb\c11765\c11765\c11765;
+\cssrgb\c33725\c61176\c83922;\cssrgb\c83137\c83137\c83137;\cssrgb\c61176\c86275\c99608;\cssrgb\c80784\c56863\c47059;\cssrgb\c0\c36078\c77255;
+\cssrgb\c14118\c16078\c18039;\cssrgb\c90196\c100000\c92941;\cssrgb\c84314\c22745\c28627;}
 {\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
 {\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
 {\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
 \paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
 \deftab720
+\pard\pardeftab720\sl380\partightenfactor0
+
+\f0\fs27\fsmilli13600 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\pard\pardeftab720\sl560\partightenfactor0
+
+\f1\fs48 \cf4 \cb5 \strokec4 SSH keys
+\f0\fs27\fsmilli13600 \cf2 \cb3 \strokec2 \
+\pard\pardeftab720\sl380\partightenfactor0
+\cf2 ssh-keygen -t rsa -b 4096 -C "
+\f2\i simon.hoang23@gmail.com
+\f0\i0 "\cf4 \strokec4 \
+\pard\pardeftab720\sl260\partightenfactor0
+
+\fs22 \cf6 \cb1 \strokec6 \uc0\u8232 \
+cat /Users/simonhoang/.ssh/id_rsa.pub\
 \pard\pardeftab720\sl220\partightenfactor0
 
-\f0\fs26 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 To get rid of clickable padding spaces when applied (<a>) tags:\
+\f3\fs26 \cf7 \cb5 \outl0\strokewidth0 \
+\
+\
+To get rid of clickable padding spaces when applied (<a>) tags:\
 \pard\pardeftab720\sl220\partightenfactor0
-\cf2 \cb1 \'a0\
+\cf7 \cb1 \'a0\
 use <p> tag to wrap around the <a> tag. This is good for when the section goes down to another line on the webpage.\'a0\
 \
 i.e:\'a0
-\f1 \cf4 \cb5 \strokec4 <\cf6 \strokec6 p\cf7 \strokec7  \cf8 \strokec8 class\cf7 \strokec7 =\cf9 \strokec9 "hello"\cf4 \strokec4 >\cf7 \strokec7  \cf4 \strokec4 <\cf6 \strokec6 a\cf7 \strokec7  \cf8 \strokec8 href\cf7 \strokec7 =\cf9 \strokec9 ""\cf7 \strokec7  \cf4 \strokec4 >\cf7 \strokec7 hello\cf4 \strokec4 </\cf6 \strokec6 a\cf4 \strokec4 >\cf7 \strokec7  
-\f0 \cf2 \cb1 \strokec2 \
+\f0 \cf8 \cb9 <\cf10 p\cf11  \cf12 class\cf11 =\cf13 "hello"\cf8 >\cf11  \cf8 <\cf10 a\cf11  \cf12 href\cf11 =\cf13 ""\cf11  \cf8 >\cf11 hello\cf8 </\cf10 a\cf8 >\cf11  
+\f3 \cf7 \cb1 \
 \pard\pardeftab720\sl360\partightenfactor0
 
-\f1 \cf7 \cb5 \strokec7    \cf4 \strokec4 </\cf6 \strokec6 p\cf4 \strokec4 >\cf7 \cb1 \strokec7 \
+\f0 \cf11 \cb9    \cf8 </\cf10 p\cf8 >\cf11 \cb1 \
 \pard\pardeftab720\sl220\partightenfactor0
 
-\f0 \cf2 \strokec2 \
+\f3 \cf7 \
 <Span> tags\
 To change a word to bold, colour, use <span> tag\
 \
 Things to do:\
 \
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sl220\partightenfactor0
-\ls1\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Continue with responsive mobile media query on homepage - start from the top\
+\ls1\ilvl0\cf7 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Continue with responsive mobile media query on homepage - start from the top\
 \pard\pardeftab720\sl220\partightenfactor0
-\cf2 \
+\cf7 \
 What I have done so far is:\
 \
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sl220\partightenfactor0
-\ls2\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Got rid of the sections between the items and groups them all into 1 section\
-\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Used flexbox wrap: wrap; on the main container\
-\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Used\'a0\cf10 \strokec10 max-width
-\f1 \cf11 \cb12 \strokec11 : \cf10 \strokec10 30\cf13 \strokec13 %\cf11 \strokec11 ; on items class
-\f0 \cf2 \cb1 \strokec2 \
-\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Used media query to start fixing mobile\'a0\uc0\u8232 \
+\ls2\ilvl0\cf7 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Got rid of the sections between the items and groups them all into 1 section\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Used flexbox wrap: wrap; on the main container\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Used\'a0\cf14 max-width
+\f0 \cf15 \cb16 : \cf14 30\cf17 %\cf15 ; on items class
+\f3 \cf7 \cb1 \
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Used media query to start fixing mobile\'a0\uc0\u8232 \
 \pard\pardeftab720\sl220\partightenfactor0
-\cf2 Check out Github to see the code I have worked on
+\cf7 Check out Github to see the code I have worked on
 \fs20 \
 }
