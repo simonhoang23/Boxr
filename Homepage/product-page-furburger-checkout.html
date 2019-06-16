@@ -55,18 +55,45 @@
 <section class="checkout__container">
     <div class="h2__icon__flex">
         <h2 class="checkout__h2__text">
-            Shorts in your
+            Shorts in your <img src="../images/cart-icon.png" alt="" class="img__icon">
         </h2>
-        <img src="../images/cart-icon.png" alt="" class="img__icon">
+        
+        <div class="checkout__flex__left"></div>
+                <p class="checkout__details">FurBurger | M | x1 | £19.99</p>
+                <p class="checkout__price">Total: £19.99</p>
+            </div>
     </div>
-    <div>
-        <p>FurBurger | M | x1 | £19.99</p>
-        <p>Total: £19.99</p>
+
+
+
+    <div class="checkout__form__container">
+        <form action="/action_page.php" class="checkout__flex__right">
+            <h2 class="checkout__h2__title__right">
+                Checkout
+            </h2>
+            <input type="text" placeholder="Full Name" name="email" required clas>
+            <input type="text" placeholder="Address" name="email" required>
+            <input type="text" placeholder="Post Code" name="email" required>
+            <input type="text" placeholder="Country" name="email" required>
+            <input type="tel" placeholder="Phone Number" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+            <button class="button">Continue</button>
+        </form>
     </div>
     
 </section>
 
-
+<section class="checkout__images__container">
+    <div>
+        <div class="checkout__images__top">
+            <img src="../images/checkout-image-1.png" alt="" class="checkout__images__1">
+            <img src="../images/checkout-image-2.png" alt="" class="checkout__images__2">
+        </div>
+        <div class="checkout__images__bottom">
+            <img src="../images/checkout-image-3.png" alt="" class="checkout__images__3">
+            <img src="../images/checkout-image-4.png" alt=""class="checkout__images__3">
+        </div>
+    </div>
+</section>
 
 
 
