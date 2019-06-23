@@ -33,6 +33,10 @@ section {
     align-self: center;
 }
 
+.menu__mobile__container {
+    display: none;
+}
+
 .menu__container__ul {
     display: flex;
     text-transform: uppercase;
@@ -115,6 +119,10 @@ section {
     padding: 12px 10px 70px 0;
 } 
 
+.shorts__small.no__margin__right {
+padding: 12px 0px 70px 0;
+}
+
 .product__info__container{
     
 }
@@ -129,7 +137,6 @@ section {
     margin: 25px 0 13px 0;
     color: #212121;
     font-size: 23px;
-    width: 530px;
     line-height: 1.3;
 }
 
