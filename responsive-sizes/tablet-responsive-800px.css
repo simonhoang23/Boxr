@@ -11,4 +11,22 @@
         align-self: center;
         margin-right: 20px;
     }
+
+    .product__all {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
 }
