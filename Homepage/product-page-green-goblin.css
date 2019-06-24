@@ -106,16 +106,20 @@ section {
     display: flex;
 }
 
+.left__images {
+    
+}
+
 .right__text {
-    margin-left: 90px;
+    
 }
 
 .shorts__main {
-    width: 600px;
+    width: 90%;
 }
 
 .shorts__small {
-    width: 190px;
+    width: 28.9%;
     padding: 12px 10px 70px 0;
 } 
 
@@ -146,7 +150,7 @@ padding: 12px 0px 70px 0;
 
 .image__sizes {
     width: 50px;
-    margin: 30px 20px 0 0;
+    margin: 30px 9px 0 0;
 }
 
 .product__price__text {
