@@ -120,7 +120,7 @@ section {
 
 .shorts__small {
     width: 28.9%;
-    padding: 12px 10px 0 0;
+    padding: 12px 10px 70px 0;
 } 
 
 .shorts__small.no__margin__right {
@@ -138,7 +138,7 @@ padding: 12px 0px 70px 0;
 }
 
 .product__p__text {
-    margin: 25px 0 13px 0;
+    margin: 25px 0 25px 0;
     color: #212121;
     font-size: 23px;
     line-height: 1.3;

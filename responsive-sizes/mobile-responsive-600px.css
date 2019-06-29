@@ -292,32 +292,107 @@
 .product__h2__text {
     font-size: 40px;
     font-weight: bold;
-    margin: 60px 0 40px;
+    margin: 30px 0 20px;
     display: flex;
     justify-content: center;
 }
 
 .product__p__text {
-    margin: 25px 0 13px 0;
+    margin: 25px 0 25px 0;
     color: #212121;
-    font-size: 23px;
+    font-size: 22px;
     line-height: 1.3;
+    text-align: center;
+}
+
+.link__tags {
+    text-decoration: none;
+}
+
+.image__sizes {
+    width: 50px;
+    margin: 5.3px;
+}
+
+.product__price__text {
+    color: #212121;
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: #D500F9;
+    border: none;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 50px;
+    
+}
+
+.banner__image {
+    background: url('../images/banner-image-see-the-world-wear-it.png');
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner__text {
+    width: 152px;
+    line-height: 1.3;
+    font-size: 40px;
+    color: black;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 170px;
+    padding-left: 150px;
+
+}
+
+/* this is product-page-furburger css */
+
+
+.shorts__small.no__margin__right {
+    margin: 0;
+}
+
+.right__text {
+    margin-left: 0;
+}
+
+.images {
+    width: 30.9%;
+    height: 100%;
+    margin: 0 11px 0 0;
+}
+
+.furburger__image__size {
+    max-width: 100%;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.furburger__image__4 {
+    background: url('../images/furburger-image-4.png');
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 10px;
+}
 
 
 
