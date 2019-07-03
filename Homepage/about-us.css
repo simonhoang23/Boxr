@@ -68,13 +68,15 @@ section {
 }
 
 .images__text__main__container {
-margin-bottom: 70px;
-display: flex;
+    margin-bottom: 70px;
+
 }
 
 .images__left__flex {
     display: flex;
     flex-direction: column;
+    display: inline-block;
+    width: 70%;
 }
 
 .images__left {
@@ -89,6 +91,12 @@ display: flex;
 
 .h2__p__text__right {
     margin-left: 40px;
+    display: inline-block;
+    width: 30%;
+    padding-left: 40px;
+    box-sizing: border-box;
+    margin-left: -5px;
+    vertical-align: top;
 }
 
 .h2__text {
