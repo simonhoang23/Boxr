@@ -31,6 +31,7 @@
         margin-top: 15px;
         align-items: flex-end;
         display: flex;
+        
     }
 
     .hero__text__h1 {
@@ -532,9 +533,120 @@
 }
 
 
+/* this is the my account page page css */
 
 
+.hero__image_size {
+    max-width: 100%;
+}
 
+.hero__form__image {
+    background: url('../images/my-account-image-2.png');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sign__in__register__container {
+    padding: 150px 0 60px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links__register {
+    margin: 0;
+    padding: 0 0 20px 240px;
+    color: white;
+
+}
+
+.form__grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign__in__form [type=text], input[type=password]{
+    width: 255px;
+    font-size: 18px;
+    padding: 15px 25px;
+    border-radius: 60px;
+    margin-bottom: 30px;
+    
+    display: inline-block;
+    border: none;
+    background: #FFFFFF;
+}
+
+.enter__password input[type=text]:focus, input[type=password]:focus {
+    background-color: #dfdfdf;
+    outline: none;
+}
+
+.sign__up {
+    background-color: #D500F9;
+    border: none;
+    color: white;
+    padding: 15px 115px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+    
+}
+
+.sign__up:hover {
+    background-color: rgb(172, 0, 202);
+    color: white;
+    transition: 0.7s;
+    cursor: pointer;
+  }
+
+  .forgot__password {
+    margin-left: 0;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+.form__container__sign__up {
+    
+}
+
+.h2__sign__up__social {
+    color: white;
+    padding: 50px 0 50px 0;
+    display: flex;
+    text-align: center;
+    line-height: 1.3;
+    font-size: 30px;
+}
+
+.a__flex__container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.a__social {
+    text-decoration: none;
+}
+
+.sign__in__social__links {
+    width: 50px;
+
+}
 
 
 

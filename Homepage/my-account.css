@@ -33,6 +33,10 @@ section {
     align-self: center;
 }
 
+.menu__mobile__container {
+    display: none;
+}
+
 .menu__container__ul {
     display: flex;
     text-transform: uppercase;
@@ -66,7 +70,7 @@ section {
     max-width: 100%;
 }
 
-.hero__image {
+.hero__form__image {
     background: url('../images/my-account-image-2.png');
     height: 800px;
     background-position: center;
