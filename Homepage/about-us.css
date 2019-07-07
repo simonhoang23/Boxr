@@ -28,6 +28,10 @@ section {
     
 }
 
+.menu__mobile__container {
+    display: none;
+}
+
 .menu__container {
     justify-content: center;
     align-self: center;

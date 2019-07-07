@@ -648,9 +648,42 @@
 
 }
 
+./* this is the about us page css */
 
+.images__left__flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
+.images__left {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
 
+.h2__p__text__right {
+    margin-left: 0;
+    width: 95%;
+    padding-left: 20px;
+    margin-left: -5px;
+    
+}
+
+.h2__text {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 50px 10px 30px 0;
+}
+
+.p__text  {
+    color: #212121;
+    font-size: 23px;
+    line-height: 1.6;
+    max-width: 100%;
+    margin-right: 10px;
+
+}
 
 
 
