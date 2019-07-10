@@ -28,6 +28,10 @@ section {
     
 }
 
+.menu__mobile__container {
+    display: none;
+}
+
 .menu__container {
     justify-content: center;
     align-self: center;
@@ -68,17 +72,19 @@ section {
 }
 
 .images__text__main__container {
-margin-bottom: 70px;
-display: flex;
+    margin-bottom: 70px;
+    display: flex;
+
 }
 
 .images__left__flex {
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 .images__left {
-    width: 600px;
+    width: 100%;
     height: auto;
     margin-bottom: 20px;
 }
@@ -89,6 +95,10 @@ display: flex;
 
 .h2__p__text__right {
     margin-left: 40px;
+    width: 46%;
+    padding-left: 40px;
+    margin-left: -5px;
+    
 }
 
 .h2__text {
